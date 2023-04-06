@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+    caret-color: transparent;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(213,225,239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainContainer
+{
+    width: 25rem;
+    height: 40rem;
+    background-color: rgb(255,255,255);
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    row-gap: 1rem;
+    padding: 1.5rem;
+}
+
+.QRArea
+{
+    background-color: rgb(60,135,249);
+    border-radius: 0.5rem;
+    background-image: url("image-qr-code.png");
+    background-size: cover; 
+}
+
+.QRText
+{
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    row-gap: 0.5rem; 
+}
+.TextHeader
+{
+    
+    text-align: center;
+    
+}
+.TextInfo
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.TextInfo > p
+{
+    color: rgb(194,198,206);
+}
